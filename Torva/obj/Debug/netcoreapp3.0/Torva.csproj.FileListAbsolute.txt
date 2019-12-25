@@ -1,7 +1,5 @@
 C:\Users\hao\source\repos\Learning c#\Torva\Torva\obj\Debug\netcoreapp3.0\staticwebassets\Torva.StaticWebAssets.Manifest.cache
 C:\Users\hao\source\repos\Learning c#\Torva\Torva\obj\Debug\netcoreapp3.0\staticwebassets\Torva.StaticWebAssets.xml
-C:\Users\hao\source\repos\Learning c#\Torva\Torva\obj\Debug\netcoreapp3.0\Torva.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\hao\source\repos\Learning c#\Torva\Torva\obj\Debug\netcoreapp3.0\Torva.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\hao\source\repos\Learning c#\Torva\Torva\obj\Debug\netcoreapp3.0\Torva.RazorAssemblyInfo.cache
 C:\Users\hao\source\repos\Learning c#\Torva\Torva\obj\Debug\netcoreapp3.0\Torva.RazorAssemblyInfo.cs
 C:\Users\hao\source\repos\Learning c#\Torva\Torva\obj\Debug\netcoreapp3.0\Torva.AssemblyInfoInputs.cache
@@ -137,3 +135,7 @@ C:\Users\hao\source\repos\Learning c#\Torva\Torva\obj\Debug\netcoreapp3.0\Torva.
 C:\Users\hao\source\repos\Learning c#\Torva\Torva\obj\Debug\netcoreapp3.0\Torva.csproj.CopyComplete
 C:\Users\hao\source\repos\Learning c#\Torva\Torva\obj\Debug\netcoreapp3.0\Torva.dll
 C:\Users\hao\source\repos\Learning c#\Torva\Torva\obj\Debug\netcoreapp3.0\Torva.pdb
+C:\Users\hao\source\repos\Learning c#\Torva\Torva\obj\Debug\netcoreapp3.0\Torva.csprojAssemblyReference.cache
+C:\Users\hao\source\repos\Learning c#\Torva\Torva\obj\Debug\netcoreapp3.0\Razor\Views\Content\Index.cshtml.g.cs
+C:\Users\hao\source\repos\Learning c#\Torva\Torva\obj\Debug\netcoreapp3.0\Torva.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\hao\source\repos\Learning c#\Torva\Torva\obj\Debug\netcoreapp3.0\Torva.MvcApplicationPartsAssemblyInfo.cache

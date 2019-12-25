@@ -28,7 +28,10 @@ namespace Torva
             services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
            .AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddControllersWithViews();
-            services.AddRazorPages();
+            services.AddRazorPages().AddRazorPagesOptions(options =>
+            {
+                options.Conventions.AuthorizeAreaPage("Identity", "/Content/Index");
+            });
             services.Configure<IdentityOptions>(options =>
             {
                 options.Password.RequiredLength = 10;
