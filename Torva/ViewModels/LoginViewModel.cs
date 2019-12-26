@@ -9,6 +9,7 @@ namespace Torva.ViewModels
 {
     public class LoginViewModel
     {
+        public int Id { get; set; }
         [Required]
         [Email]
         public string Email { get; set; }

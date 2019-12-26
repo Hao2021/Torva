@@ -8,6 +8,8 @@ namespace Torva.ViewModels
 {
     public class RegisterViewModel
     {
+        public int Id { get; set; }
+
         [Required]
         [EmailAddress]
         public string Email { get; set; }

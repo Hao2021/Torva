@@ -18,15 +18,13 @@ namespace Torva
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<ApplicationDbContext>(options =>
+            services.AddDbContext<TorvaContext>(options =>
              options.UseMySql(
                  Configuration.GetConnectionString("DefaultConnection")));
-            services.AddDbContext<ApplicationDbContext>(options =>
-            options.UseSqlServer(
-                Configuration.GetConnectionString("DefaultConnection")));
+         
             services.AddControllersWithViews();
             services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
-           .AddEntityFrameworkStores<ApplicationDbContext>();
+           .AddEntityFrameworkStores<TorvaContext>();
             services.AddControllersWithViews();
             services.AddRazorPages().AddRazorPagesOptions(options =>
             {
@@ -34,7 +32,7 @@ namespace Torva
             });
             services.Configure<IdentityOptions>(options =>
             {
-                options.Password.RequiredLength = 10;
+                options.Password.RequiredLength = 8;
                 options.Password.RequiredUniqueChars = 3;
                 options.Password.RequireNonAlphanumeric = false;
             });
